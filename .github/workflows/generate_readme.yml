@@ -12,6 +12,9 @@ on:
     paths:
       - main.py
 
+permissions:
+  contents: write
+
 jobs:
   sync:
     name: Generate README
