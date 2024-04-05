@@ -1,26 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/dingyue772/Record</id><title>RSS feed of dingyue772's Record</title><updated>2024-04-05T03:10:55.397968+00:00</updated><link href="https://github.com/dingyue772/Record"/><link href="https://raw.githubusercontent.com/dingyue772/Record/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/dingyue772/Record/issues/8</id><title>试验8</title><updated>2024-04-05T03:10:55.675556+00:00</updated><content type="html"><![CDATA[<p>我改读写权限，我再试一次</p>
-]]></content><link href="https://github.com/dingyue772/Record/issues/8"/><category term="日记"/><published>2024-04-05T03:10:27+00:00</published></entry><entry><id>https://github.com/dingyue772/Record/issues/7</id><title>试验7</title><updated>2024-04-05T03:10:55.807123+00:00</updated><content type="html"><![CDATA[<p>我再试试main.py里面有的TODO标签呢</p>
-]]></content><link href="https://github.com/dingyue772/Record/issues/7"/><published>2024-04-05T02:56:45+00:00</published></entry><entry><id>https://github.com/dingyue772/Record/issues/6</id><title>试验6</title><updated>2024-04-05T03:10:55.962902+00:00</updated><content type="html"><![CDATA[<p>这次我把原项目中那么多的东西删除了，workflow里面的generate_site也删除了，我再试试呢</p>
-]]></content><link href="https://github.com/dingyue772/Record/issues/6"/><category term="论文笔记"/><published>2024-04-05T02:54:59+00:00</published></entry><entry><id>https://github.com/dingyue772/Record/issues/5</id><title>试验5</title><updated>2024-04-05T03:10:56.093529+00:00</updated><content type="html"><![CDATA[<p>这次的思路是：之前的issues都没有打标签，这次加上label试试呢</p>
-]]></content><link href="https://github.com/dingyue772/Record/issues/5"/><category term="日记"/><published>2024-04-05T02:44:38+00:00</published></entry><entry><id>https://github.com/dingyue772/Record/issues/4</id><title>试验4</title><updated>2024-04-05T03:10:56.213096+00:00</updated><content type="html"><![CDATA[<p>添加了README.md，猜想是因为没有README文件，所以无法添加issues到readme里</p>
-]]></content><link href="https://github.com/dingyue772/Record/issues/4"/><published>2024-04-05T02:16:56+00:00</published></entry><entry><id>https://github.com/dingyue772/Record/issues/3</id><title>试验3</title><updated>2024-04-05T03:10:56.345768+00:00</updated><content type="html"><![CDATA[<p>这次加入了feed.xml到repo里面</p>
-]]></content><link href="https://github.com/dingyue772/Record/issues/3"/><published>2024-04-05T02:09:47+00:00</published></entry><entry><id>https://github.com/dingyue772/Record/issues/2</id><title>github+issues写博客</title><updated>2024-04-05T03:10:56.468750+00:00</updated><content type="html"><![CDATA[<p>之前自己的博客工作流为obsidian写本地学习笔记，使用picgo配置图床，然后复制粘贴到csdn上进行发表
-偶然的机会看到一个朋友用issues写博客，然后在google的过程中看到一个已经使用issues写博客5年的神中神大佬，一下子就被震撼到了</p>
-<blockquote>
-<p>你一直以来想做的事情，这个世界上一定有人在做着，并且做得很好</p>
-</blockquote>
-]]></content><link href="https://github.com/dingyue772/Record/issues/2"/><published>2024-04-05T01:28:47+00:00</published></entry><entry><id>https://github.com/dingyue772/Record/issues/1</id><title>电脑重装record</title><updated>2024-04-05T03:10:56.601226+00:00</updated><content type="html"><![CDATA[<h1>Tips</h1>
-<p><strong>文档备份</strong>
-U盘、使用云盘（推荐阿里云盘）和github远程仓库进行辅助
-notice：在转移文件时，先检查文件夹里的东西，该删除的先删除，比如python项目文件夹里的venv，不然会出现需要转移好几十个G文件的情况~</p>
-<p><strong>新机配置</strong>
-修改用户名参考：<a href="https://blog.csdn.net/weixin_44815511/article/details/121549369">Win11修改用户名</a></p>
-<p><strong>软件使用</strong>
-相较于Anaconda，推荐miniconda
-git记得安装之后的重新配置，如username、email、ssh
-笔记软件：obsidian
-代码片段管理：masscode
-读论文：readpaper
-编辑器：vscode</p>
-]]></content><link href="https://github.com/dingyue772/Record/issues/1"/><published>2024-04-04T14:50:40+00:00</published></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/dingyue772/gitBlog</id><title>RSS feed of dingyue772's gitBlog</title><updated>2024-04-05T04:46:32.946273+00:00</updated><link href="https://github.com/dingyue772/gitBlog"/><link href="https://raw.githubusercontent.com/dingyue772/gitBlog/main/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/dingyue772/gitBlog/issues/1</id><title>Github Issues博客之旅</title><updated>2024-04-05T04:46:33.127606+00:00</updated><content type="html"><![CDATA[<p><strong>感谢yihong老师开源的gitblog项目！</strong></p>
+<h2>建立过程</h2>
+<p>开始于看到朋友在github仓库里利用issues写博客<a href="https://github.com/KMnO4-zx/blog">不要葱姜蒜的blog仓库</a>，然后去google相关的教程，看到了大佬教程——<a href="https://zhuanlan.zhihu.com/p/400962805">使用Github Issues来写博客</a>，接着就看到<a href="https://github.com/yihong0618/gitblog">yihong老师的gitblog项目</a>了，真的有被震撼到。在看的过程中我心里想的是“所有你想做的事情，世界上都有人在做了，并且做得很好！”，接着就下定决心要把我的gitblog搞起来</p>
+<h2>tips</h2>
+<p>同样的gitblog工作流建立参考<a href="https://zhuanlan.zhihu.com/p/400962805">使用Github Issues来写博客</a>和<a href="https://github.com/yihong0618/gitblog/issues/177">这个博客开源了</a>
+<strong>注意</strong></p>
+<ol>
+<li>yihong老师的workflow文件夹中有两个action，generate_site.yml是和github pages关联的，可以查看内容后进行相应的配置再使用</li>
+<li>一定要注意打开repository的settings中的actions的读写权限！！！ （我在这里卡了很久很久</li>
+</ol>
+<h2>issues写博客的优势</h2>
+<ol>
+<li>提交issues自动更新仓库readme，并且根据label将issues展示在不同的二级标题下</li>
+<li>backup文件夹自动将所有issues以.md文件的形式保存起来</li>
+<li>生成了feed.xml供订阅、并方便查看</li>
+</ol>
+<p>ps：我用到的功能只是原gitblog项目的一部分，这里可以写的还有很多！</p>
+]]></content><link href="https://github.com/dingyue772/gitBlog/issues/1"/><category term="工作流"/><published>2024-04-05T04:46:08+00:00</published></entry></feed>
