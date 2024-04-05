@@ -17,3 +17,8 @@
 3. 生成了feed.xml供订阅、并方便查看
 
 ps：我用到的功能只是原gitblog项目的一部分，这里可以写的还有很多！
+
+---
+
+好像还是有点问题，本地push之后触发的action会报错，Process completed with exit code 128，于是我把generate_readme.yml中的pus触发删除了，再加了一个permission: content: write，不知道会不会有作用。
+哈哈哈哈哈哈哈，我对github的了解太少了，猜想——验证，如果我猜得不错，我的comment应该会触发action吧~
