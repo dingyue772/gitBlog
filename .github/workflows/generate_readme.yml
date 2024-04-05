@@ -6,11 +6,6 @@ on:
     types: [opened, edited]
   issue_comment:
     types: [created, edited]
-  push:
-    branches:
-      - main
-    paths:
-      - main.py
 
 permissions:
   contents: write
