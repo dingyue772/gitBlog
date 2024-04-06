@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/dingyue772/gitBlog</id><title>RSS feed of dingyue772's gitBlog</title><updated>2024-04-06T11:59:11.334336+00:00</updated><link href="https://github.com/dingyue772/gitBlog"/><link href="https://raw.githubusercontent.com/dingyue772/gitBlog/main/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/dingyue772/gitBlog/issues/2</id><title>【代码随想录】回溯算法</title><updated>2024-04-06T11:59:11.509869+00:00</updated><content type="html"><![CDATA[<h2>理论基础</h2>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/dingyue772/gitBlog</id><title>RSS feed of dingyue772's gitBlog</title><updated>2024-04-06T11:59:44.180477+00:00</updated><link href="https://github.com/dingyue772/gitBlog"/><link href="https://raw.githubusercontent.com/dingyue772/gitBlog/main/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/dingyue772/gitBlog/issues/2</id><title>【算法】回溯算法</title><updated>2024-04-06T11:59:44.369831+00:00</updated><content type="html"><![CDATA[<h2>理论基础</h2>
 <p><strong>力扣题目分类展示</strong>
 <img src="https://github.com/dingyue772/gitBlog/assets/90541495/07aa358a-4d9c-4858-8ade-9f8e02bd0657" alt="image" /></p>
 <p><strong>回溯法理解</strong></p>
@@ -64,7 +64,7 @@ void backtracking(string&amp; s, int startIndex, int pointNum)
 </code></pre>
 <h2>参考资料</h2>
 <p><a href="https://programmercarl.com/">代码随想录</a></p>
-]]></content><link href="https://github.com/dingyue772/gitBlog/issues/2"/><category term="计算机基础"/><published>2024-04-06T11:54:51+00:00</published></entry><entry><id>https://github.com/dingyue772/gitBlog/issues/1</id><title>Github Issues博客之旅</title><updated>2024-04-06T11:59:11.608529+00:00</updated><content type="html"><![CDATA[<p><strong>感谢yihong老师开源的gitblog项目！</strong></p>
+]]></content><link href="https://github.com/dingyue772/gitBlog/issues/2"/><category term="计算机基础"/><published>2024-04-06T11:54:51+00:00</published></entry><entry><id>https://github.com/dingyue772/gitBlog/issues/1</id><title>Github Issues博客之旅</title><updated>2024-04-06T11:59:44.456155+00:00</updated><content type="html"><![CDATA[<p><strong>感谢yihong老师开源的gitblog项目！</strong></p>
 <h2>建立过程</h2>
 <p>开始于看到朋友在github仓库里利用issues写博客<a href="https://github.com/KMnO4-zx/blog">不要葱姜蒜的blog仓库</a>，然后去google相关的教程，看到了大佬教程——<a href="https://zhuanlan.zhihu.com/p/400962805">使用Github Issues来写博客</a>，接着就看到<a href="https://github.com/yihong0618/gitblog">yihong老师的gitblog项目</a>了，真的有被震撼到。在看的过程中我心里想的是“所有你想做的事情，世界上都有人在做了，并且做得很好！”，接着就下定决心要把我的gitblog搞起来</p>
 <h2>tips</h2>
