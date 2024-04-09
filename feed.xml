@@ -1,5 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/dingyue772/gitBlog</id><title>RSS feed of dingyue772's gitBlog</title><updated>2024-04-08T15:08:06.449321+00:00</updated><link href="https://github.com/dingyue772/gitBlog"/><link href="https://raw.githubusercontent.com/dingyue772/gitBlog/main/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/dingyue772/gitBlog/issues/4</id><title>【算法】快排、归并排序、二分法代码模板</title><updated>2024-04-08T15:08:06.606027+00:00</updated><content type="html"><![CDATA[<h2>快速排序模板</h2>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/dingyue772/gitBlog</id><title>RSS feed of dingyue772's gitBlog</title><updated>2024-04-09T15:01:17.124466+00:00</updated><link href="https://github.com/dingyue772/gitBlog"/><link href="https://raw.githubusercontent.com/dingyue772/gitBlog/main/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/dingyue772/gitBlog/issues/5</id><title>python环境相关</title><updated>2024-04-09T15:01:17.460947+00:00</updated><content type="html"><![CDATA[<p><strong>查看cuda版pytorch是否安装成功</strong></p>
+<pre><code class="language-python">import torch # 如果pytorch安装成功即可导入
+print(torch.cuda.is_available()) # 查看CUDA是否可用
+print(torch.cuda.device_count()) # 查看可用的CUDA数量
+print(torch.version.cuda) # 查看CUDA的版本号
+</code></pre>
+<p><strong>nvcc -V命令不可用</strong>
+cudatoolkit没有在电脑环境中安装或者安装了但没有加入环境变量
+参考<a href="https://blog.csdn.net/qq_41340996/article/details/124326865">检查pytorch是否安装成功、查看torch和cuda的版本</a></p>
+<p><strong>使用.env文件</strong>
+import的是<code>dotenv</code>，但install的是<code>python-dotenv</code>包</p>
+<p><strong>修改pip命令安装包的默认路径</strong>
+参考<a href="https://blog.csdn.net/pyt1234567890/article/details/115866935">python之修改pip默认install路径</a></p>
+]]></content><link href="https://github.com/dingyue772/gitBlog/issues/5"/><category term="Tips"/><published>2024-04-09T15:00:47+00:00</published></entry><entry><id>https://github.com/dingyue772/gitBlog/issues/4</id><title>【算法】快排、归并排序、二分法代码模板</title><updated>2024-04-09T15:01:17.603548+00:00</updated><content type="html"><![CDATA[<h2>快速排序模板</h2>
 <pre><code class="language-C++">void quick_sort(int q[], int l, int r)
 {
     if (l &gt;= r) return;
@@ -66,7 +79,7 @@ while (r - l &gt; eps)
 }
 printf (&quot;%.6lf&quot;, l);
 </code></pre>
-]]></content><link href="https://github.com/dingyue772/gitBlog/issues/4"/><category term="计算机基础"/><published>2024-04-08T15:07:42+00:00</published></entry><entry><id>https://github.com/dingyue772/gitBlog/issues/3</id><title>【RAG】了解RAG</title><updated>2024-04-08T15:08:06.685516+00:00</updated><content type="html"><![CDATA[<h1>RAG</h1>
+]]></content><link href="https://github.com/dingyue772/gitBlog/issues/4"/><category term="计算机基础"/><published>2024-04-08T15:07:42+00:00</published></entry><entry><id>https://github.com/dingyue772/gitBlog/issues/3</id><title>【RAG】了解RAG</title><updated>2024-04-09T15:01:17.751159+00:00</updated><content type="html"><![CDATA[<h1>RAG</h1>
 <p><img src="https://github.com/dingyue772/gitBlog/assets/90541495/20a0c03d-a036-41c6-ac5b-2e00a04cc04c" alt="image" /></p>
 <h2>InternLM+LangChain搭建RAG应用</h2>
 <p><strong>工具包</strong>
@@ -80,7 +93,7 @@ NLTK相关资源</p>
 <p><strong>检索问答链构建</strong>
 加载向量数据库——实例化自定义LLM和Prompt Template——构建检索问答链
 检索优化：使用图检索、网页搜索进行优化</p>
-]]></content><link href="https://github.com/dingyue772/gitBlog/issues/3"/><category term="AI基础"/><published>2024-04-06T14:22:12+00:00</published></entry><entry><id>https://github.com/dingyue772/gitBlog/issues/2</id><title>【算法】回溯算法</title><updated>2024-04-08T15:08:06.757443+00:00</updated><content type="html"><![CDATA[<h2>理论基础</h2>
+]]></content><link href="https://github.com/dingyue772/gitBlog/issues/3"/><category term="AI基础"/><published>2024-04-06T14:22:12+00:00</published></entry><entry><id>https://github.com/dingyue772/gitBlog/issues/2</id><title>【算法】回溯算法</title><updated>2024-04-09T15:01:17.892477+00:00</updated><content type="html"><![CDATA[<h2>理论基础</h2>
 <p><strong>力扣题目分类展示</strong>
 <img src="https://github.com/dingyue772/gitBlog/assets/90541495/07aa358a-4d9c-4858-8ade-9f8e02bd0657" alt="image" /></p>
 <p><strong>回溯法理解</strong></p>
@@ -145,7 +158,7 @@ void backtracking(string&amp; s, int startIndex, int pointNum)
 </code></pre>
 <h2>参考资料</h2>
 <p><a href="https://programmercarl.com/">代码随想录</a></p>
-]]></content><link href="https://github.com/dingyue772/gitBlog/issues/2"/><category term="计算机基础"/><published>2024-04-06T11:54:51+00:00</published></entry><entry><id>https://github.com/dingyue772/gitBlog/issues/1</id><title>Github Issues博客之旅</title><updated>2024-04-08T15:08:06.850362+00:00</updated><content type="html"><![CDATA[<p><strong>感谢yihong老师开源的gitblog项目！</strong></p>
+]]></content><link href="https://github.com/dingyue772/gitBlog/issues/2"/><category term="计算机基础"/><published>2024-04-06T11:54:51+00:00</published></entry><entry><id>https://github.com/dingyue772/gitBlog/issues/1</id><title>Github Issues博客之旅</title><updated>2024-04-09T15:01:18.033277+00:00</updated><content type="html"><![CDATA[<p><strong>感谢yihong老师开源的gitblog项目！</strong></p>
 <h2>建立过程</h2>
 <p>开始于看到朋友在github仓库里利用issues写博客<a href="https://github.com/KMnO4-zx/blog">不要葱姜蒜的blog仓库</a>，然后去google相关的教程，看到了大佬教程——<a href="https://zhuanlan.zhihu.com/p/400962805">使用Github Issues来写博客</a>，接着就看到<a href="https://github.com/yihong0618/gitblog">yihong老师的gitblog项目</a>了，真的有被震撼到。在看的过程中我心里想的是“所有你想做的事情，世界上都有人在做了，并且做得很好！”，接着就下定决心要把我的gitblog搞起来</p>
 <h2>tips</h2>
